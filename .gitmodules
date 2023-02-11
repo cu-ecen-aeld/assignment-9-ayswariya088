@@ -4,3 +4,6 @@
 [submodule "base_external/buildroot"]
 	path = base_external/buildroot
 	url = https://git.busybox.net/buildroot/
+[submodule "buildroot"]
+	path = buildroot
+	url = https://git.busybox.net/buildroot/
