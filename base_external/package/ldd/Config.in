@@ -1,0 +1,5 @@
+config BR2_PACKAGE_LDD
+	bool "ldd"
+	help
+	  Includes the misc-modules and scull components in the rootfs of the image.
+	  Used to understand buildroot external trees and package builds.
