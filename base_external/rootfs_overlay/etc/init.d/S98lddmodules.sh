@@ -5,12 +5,14 @@ case "$1" in
 		echo 'Starting scull and misc-modules'
 		/usr/bin/module_load faulty
 		/usr/bin/scull_load
+		/usr/bin/aesdchar_load
 		modprobe hello
 		;;
 	stop)
 		echo 'Stopping scull and misc-modules'
 		/usr/bin/module_unload faulty
 		/usr/bin/scull_unload
+		/usr/bin/aesdchar_unload
 		rmmod hello
 		;;
 	*)
