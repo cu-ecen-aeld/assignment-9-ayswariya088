@@ -4,7 +4,7 @@
 #
 ###############################################################
 
-AESD_CHAR_VERSION =3b00063c47d94fff3b084f27559de7604dbde261 #commit version number for A8
+AESD_CHAR_VERSION =0fae2de26d66ceaaaf3d0e7fa5ae987d21560e51 #commit version number for A8
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
